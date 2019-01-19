@@ -41,10 +41,10 @@ return [
             'enable' => null,
             'redact' => [
                 'fields'  => [
-                    'password', 'confirm_password', 'cvv', 'cvc', 'cvv2', 'card_number', 'ssn', 'ni_number',
+                    'password', 'confirm_password', 'cvv', 'cvc', 'cvv2', 'card_number', 'ssn', 'ni_number', 'api_key',
                 ],
                 'headers' => [
-                    'Authorization'
+                    'Authorization', 'Cookie', 'Set-Cookie',
                 ],
             ],
             'extras' => [
